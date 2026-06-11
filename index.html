@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vandeltazz Chess Coaching</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0b0b0b;
+    color:white;
+    font-family:Georgia, serif;
+    line-height:1.6;
+}
+
+/* HERO */
+
+header{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)),
+    url("chess.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    padding:20px;
+}
+
+.logo{
+    font-size:5rem;
+    color:#d4af37;
+}
+
+h1{
+    color:#d4af37;
+    font-size:4rem;
+    letter-spacing:3px;
+}
+
+.tagline{
+    font-size:1.4rem;
+    margin-top:10px;
+    color:#ddd;
+    font-style:italic;
+}
+
+.subtitle{
+    margin-top:20px;
+    font-size:1.2rem;
+}
+
+.philosophy{
+    max-width:700px;
+    margin-top:30px;
+    font-size:1.1rem;
+    color:#cfcfcf;
+}
+
+.cta-btn{
+
+    margin-top:35px;
+
+    padding:15px 35px;
+
+    background:#d4af37;
+
+    color:black;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.cta-btn:hover{
+    transform:translateY(-5px);
+}
+
+/* GENERAL */
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:80px 25px;
+}
+
+.section-title{
+    text-align:center;
+    color:#d4af37;
+    margin-bottom:50px;
+    font-size:2.4rem;
+}
+
+hr{
+    width:60%;
+    margin:auto;
+    height:2px;
+    border:none;
+    background:#d4af37;
+}
+
+/* CARDS */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+}
+
+.card{
+
+    background:#151515;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    border:1px solid #242424;
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#d4af37;
+}
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+/* ABOUT */
+
+.about{
+    text-align:center;
+    max-width:800px;
+}
+
+.about p{
+    font-size:1.1rem;
+}
+
+/* STATS */
+
+.stats{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(200px,1fr));
+
+    gap:25px;
+
+    text-align:center;
+}
+
+.stat{
+
+    background:#151515;
+
+    padding:30px;
+
+    border-radius:15px;
+}
+
+.stat h2{
+    color:#d4af37;
+}
+
+/* PRICING */
+
+.pricing{
+    text-align:center;
+}
+
+.price-box{
+
+    background:#151515;
+
+    max-width:600px;
+
+    margin:25px auto;
+
+    padding:30px;
+
+    border-radius:15px;
+}
+
+.price{
+    color:#d4af37;
+    font-size:2rem;
+}
+
+/* TESTIMONIAL */
+
+.testimonial{
+
+    background:#151515;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+}
+
+/* CONTACT */
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">♞</div>
+
+<h1>VANDELTAZZ</h1>
+
+<p class="tagline">
+Every move has a purpose.
+</p>
+
+<p class="subtitle">
+Personalized Online Chess Coaching For Complete Beginners
+</p>
+
+<p class="philosophy">
+There is a person on the other side of the board trying to beat you.
+
+Learn how to think like a chess player, not just move pieces.
+</p>
+
+<a href="#contact" class="cta-btn">
+BOOK YOUR FREE LESSON
+</a>
+
+</header>
+
+<hr>
+
+<section>
+
+<h2 class="section-title">
+Why Choose Vandeltazz?
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Beginner Friendly</h3>
+<p>
+No confusing theory. Learn chess from the ground up.
+</p>
+</div>
+
+<div class="card">
+<h3>Understand The Game</h3>
+<p>
+Learn why moves are played instead of memorizing them.
+</p>
+</div>
+
+<div class="card">
+<h3>Personal Coaching</h3>
+<p>
+Lessons tailored to your level and goals.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<hr>
+
+<section class="about">
+
+<h2 class="section-title">
+Meet Your Coach
+</h2>
+
+<p>
+
+Hi, I'm Coach Vandelta.
+
+I created Vandeltazz Chess Coaching because I believe every move has a purpose.
+
+My goal isn't to make students memorize moves.
+
+My goal is to help them understand them.
+
+</p>
+
+</section>
+
+<hr>
+
+<section>
+
+<h2 class="section-title">
+What You'll Learn
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Fundamentals</h3>
+<p>
+Piece movement, captures, check and checkmate.
+</p>
+</div>
+
+<div class="card">
+<h3>Tactics</h3>
+<p>
+Forks, pins, skewers and tactical patterns.
+</p>
+</div>
+
+<div class="card">
+<h3>Openings</h3>
+<p>
+Opening principles and beginner systems.
+</p>
+</div>
+
+<div class="card">
+<h3>Thinking Process</h3>
+<p>
+How to identify threats and create plans.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<hr>
+
+<section>
+
+<h2 class="section-title">
+Vandeltazz Stats
+</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h2>0+</h2>
+<p>Students Taught</p>
+</div>
+
+<div class="stat">
+<h2>0+</h2>
+<p>Lessons Delivered</p>
+</div>
+
+<div class="stat">
+<h2>Coming Soon</h2>
+<p>Reviews</p>
+</div>
+
+</div>
+
+</section>
+
+<hr>
+
+<section class="pricing">
+
+<h2 class="section-title">
+Pricing
+</h2>
+
+<div class="price-box">
+
+<h3>First Lesson</h3>
+
+<p class="price">
+FREE
+</p>
+
+<p>
+45 Minute Introduction Session
+</p>
+
+</div>
+
+<div class="price-box">
+
+<h3>Single Lesson</h3>
+
+<p class="price">
+₹50
+</p>
+
+<p>
+45 Minutes Online Coaching
+</p>
+
+</div>
+
+<div class="price-box">
+
+<h3>5 Lesson Package</h3>
+
+<p class="price">
+₹200
+</p>
+
+<p>5 Coaching Sessions</p>
+
+<p>+ Bonus Training Match</p>
+
+<p>+ Personalized Feedback</p>
+
+</div>
+
+</section>
+
+<hr>
+
+<section>
+
+<h2 class="section-title">
+Future Student Reviews
+</h2>
+
+<div class="testimonial">
+
+⭐⭐⭐⭐⭐
+
+<p style="margin-top:20px;">
+Your review could be the first one here.
+</p>
+
+</div>
+
+</section>
+
+<hr>
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">
+Contact
+</h2>
+
+<p>Discord: YOUR_DISCORD</p>
+
+<br>
+
+<p>Email: YOUR_EMAIL</p>
+
+<br>
+
+<p>
+Lessons conducted through Discord and Chess.com
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Vandeltazz Chess Coaching
+
+</footer>
+
+</body>
+</html>
